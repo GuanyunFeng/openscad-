@@ -12,8 +12,11 @@
 　　**center**:默认为false,其中(0,0,0)是长方体坐标做小的顶点。若指定center为true,(0,0,0)是长方体的中心。</br>
 　　**size**: 默认值为1。size可以指定为单个数值，或数值三元组如[1,2,3]。若指定size为单个数值，则生成正方体，size是其楞长。若指定size为三元组[x,y,z],则x、y、z分别是长方体x轴、y轴、z轴上的棱长。</br>
 示例一:```cube(size = 10)```</br>
-![cube1](https://github.com/GuanyunFeng/openscad-doc/tree/main/imgs/cube1.png)
-示例二:```cube(size = [1,2,3], center = true)```</br>
+![cube1](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube1.png)</br>
+示例二:```cube(size = 10, center = true)```</br>
+![cube2](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube2.png)</br>
+示例三:```cube(size = [5,10,15])```</br>
+![cube3](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube3.png)</br>
 
 ### 圆柱体
 圆柱体的函数为```cube(h = 1, r = 1, r1 = 1, r2 = 1, d = 2, d1 = 2, d2 = 2, center=false)```,不仅可以绘制圆柱体，还可以绘制圆台和圆锥。其包含以下参数:</br>
@@ -26,6 +29,9 @@
 　　**d1**: 默认值为2。d1是底面圆形直径。若指定了d1,则参数r,r1,r2,d失效，圆柱上下底面圆形的大小由d1和d2决定。</br>
 　　**d2**: 默认值为2。r2是顶面圆形直径。若指定了d2,则参数r,r1,r2,d失效，圆柱上下底面圆形的大小由d1和d2决定。</br>
 
-示例一:```cube(size = 3, center = true)```
-
-示例二:```cube(size = [1,2,3], center = true)```
+示例一:```cube(size = 10)```</br>
+![cube1](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube1.png)</br>
+示例二:```cube(size = 10, center = true)```</br>
+![cube2](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube2.png)</br>
+示例三:```cube(size = [5,10,15])```</br>
+![cube3](https://github.com/GuanyunFeng/openscad-doc/blob/main/imgs/cube3.png)</br>
