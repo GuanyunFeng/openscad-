@@ -12,7 +12,7 @@
 　　**center**:默认为false,其中(0,0,0)是长方体坐标做小的顶点。若指定center为true,(0,0,0)是长方体的中心。</br>
 　　**size**: 默认值为1。size可以指定为单个数值，或数值三元组如[1,2,3]。若指定size为单个数值，则生成正方体，size是其楞长。若指定size为三元组[x,y,z],则x、y、z分别是长方体x轴、y轴、z轴上的棱长。</br>
 示例一:```cube(size = 10)```</br>
-![cube1](https://github.com/GuanyunFeng/openscad-/blob/main/imgs/cube1.png)
+![cube1](https://github.com/GuanyunFeng/openscad-doc/tree/main/imgs/cube1.png)
 示例二:```cube(size = [1,2,3], center = true)```</br>
 
 ### 圆柱体
